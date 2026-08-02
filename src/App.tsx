@@ -3,7 +3,6 @@ import { About } from './components/sections/About';
 import { Experience } from './components/sections/Experience';
 import { Projects } from './components/sections/Projects';
 import { Education } from './components/sections/Education';
-import { personal } from './data/personal';
 
 function Footer() {
   return (
