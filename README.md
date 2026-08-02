@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# 💻 Portfolio - Gabrielle Oliveira Santana
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este é o repositório do meu portfolio profissional como **Software Engineer**. O projeto foi construído utilizando tecnologias modernas de frontend para proporcionar uma experiência fluida, responsiva e com ótimas animações.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
 
-## React Compiler
+- **React 19**
+- **TypeScript**
+- **Vite** (para um ambiente de desenvolvimento ultra-rápido)
+- **Tailwind CSS v4** (estilização moderna e otimizada)
+- **Framer Motion** (animações fluidas de interface)
+- **Lucide React** (biblioteca de ícones consistentes)
+- **React Router Dom** (gerenciamento de rotas)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Como Rodar o Projeto Localmente
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Siga os passos abaixo para baixar, instalar e rodar o projeto na sua máquina:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### 1. Pré-requisitos
+Certifique-se de ter o **Node.js** (versão 18 ou superior recomendada) instalado no seu computador. Você pode verificar rodando no terminal:
+```bash
+node -v
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### 2. Clonar o Repositório
+Abra o seu terminal e clone o projeto do GitHub:
+```bash
+git clone https://github.com/santanagabi/portifolio.git
+```
+
+Entre na pasta do projeto:
+```bash
+cd portifolio
+```
+
+### 3. Instalar as Dependências
+Execute o comando abaixo para instalar todos os pacotes necessários:
+```bash
+npm install
+```
+
+### 4. Iniciar o Servidor de Desenvolvimento
+Rode o comando a seguir para iniciar o projeto em modo de desenvolvimento local:
+```bash
+npm run dev
+```
+Após rodar, o console mostrará um link local (geralmente `http://localhost:5173`). Abra esse link no seu navegador.
+
+---
+
+## 📦 Scripts Disponíveis
+
+No arquivo `package.json`, temos os seguintes comandos principais definidos:
+
+- **`npm run dev`**: Inicia o servidor local de desenvolvimento com Hot Module Replacement (HMR).
+- **`npm run build`**: Compila e otimiza o código para produção na pasta `/dist`.
+- **`npm run preview`**: Abre um servidor local para visualizar a versão de produção compilada pelo comando anterior.
+- **`npm run lint`**: Executa o `oxlint` para analisar a qualidade e possíveis problemas no código.
