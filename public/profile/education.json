@@ -1,0 +1,16 @@
+{
+    "education":[
+        {
+            "title": "Expected Dec 2026",
+            "cardTitle": "MBA in Strategic IT Management",
+            "cardSubtitle":"IFSP — Instituto Federal de São Paulo",
+            "cardDetailedText": "In Progress"
+        },
+        {
+            "title": "Completed Dec 2024",
+            "cardTitle": "B.Sc. in Information Systems Analysis & Development",
+            "cardSubtitle":"PUC Minas",
+            "cardDetailedText": "Completed"
+        }
+    ]
+}

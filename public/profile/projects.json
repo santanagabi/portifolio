@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "image": "images/projects/portfolio-poster.png",
+            "title": "FX Checker",
+            "bodyText": "- Modern currency exchange application featuring real-time conversion, market dashboard with historical charts, currency comparison tools, and persistent favorites. Built with Angular 19 and the latest Signals API.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/fx-checker"
+                }
+            ],
+            "tags": [
+                "Angular 19",
+                "TypeScript",
+                "RxJS",
+                "Signals",
+                "Chart.js",
+                "REST API"
+            ]
+        },
+        {
+            "image": "images/projects/caaring-poster.png",
+            "title": "Pokédex Search",
+            "bodyText": "- Pokémon search engine with advanced filters, smart pagination, and sorting — pulling data from the PokéAPI. Includes detailed Pokémon profile pages with stats, types, and evolution chains.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/pokedex-search"
+                }
+            ],
+            "tags": [
+                "Vue.js",
+                "Vuex",
+                "Nuxt.js",
+                "REST API"
+            ]
+        },
+        {
+            "image": "images/projects/quiet-hours-poster.jpg",
+            "title": "Aesthetic Clinic Manager",
+            "bodyText": "- Full-featured clinic management system covering patient records, stock control, appointment scheduling, and administrative reports — developed as a capstone project during graduation.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/pmv-ads-2024-2-e5-proj-clinica-estetica"
+                }
+            ],
+            "tags": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Prisma"
+            ]
+        }
+    ]
+}
