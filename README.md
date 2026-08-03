@@ -1,33 +1,10 @@
-# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mayankagarwal09.dev-portfolio)
+# Portfólio - Gabrielle Oliveira Santana
 
-## A minimal portfolio template for Developers!
+🚀 **[Veja o Portfólio Online Aqui!](https://santanagabi.github.io/portifolio/)**
 
-<h2 align="center">
-  <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
-  <br>
-</h2>
+## Sobre
 
-## Features
-
-⚡️ Modern **bento** UI — dark-first, with a light-theme toggle\
-⚡️ Built with React 18 + Vite\
-⚡️ Design-token theming (restyle the whole site from one place) + refined web fonts\
-⚡️ Reveal animations & fully responsive\
-⚡️ Data-driven and easily customizable via JSON\
-⚡️ Well organized documentation
-
-## Demo
-
-To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.app)**
-
-## Choosing a version 🧭
-
-This template ships in two UI flavors — pick the one you like:
-
-| Version | UI | Get it | Demo |
-| ------- | -- | ------ | ---- |
-| **v2** _(latest)_ | Modern bento, dark-first | default branch / [latest release](https://github.com/mayankagarwal09/dev-portfolio/releases/latest) | [live](https://dev-portfolio-mayankagarwal09.vercel.app) |
-| **v1** | Classic | [`v1`](https://github.com/mayankagarwal09/dev-portfolio/tree/v1) branch / `v1.x` release | [live](https://dev-portfolio-mayankagarwal09-v1.vercel.app) |
+Este é o repositório do meu portfólio, construído utilizando React, Vite e GitHub Pages para deploy contínuo. Ele contém os dados das minhas experiências profissionais, projetos, formação e habilidades técnicas.
 
 ```bash
 # New UI (v2) — default
