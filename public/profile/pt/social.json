@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/gabrielle-santana-developer/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/santanagabi"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:gaboliveirasantana1@gmail.com"
+        }
+    ]
+}

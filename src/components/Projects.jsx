@@ -3,23 +3,25 @@ import { Fade } from 'react-awesome-reveal';
 import PropTypes from 'prop-types';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
+import AppContext from '../AppContext';
 import ProjectCard from './projects/ProjectCard';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/projects.css';
 
 const Projects = (props) => {
   const { header } = props;
+  const { language } = React.useContext(AppContext);
   const [data, setData] = useState(null);
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.projects, {
+    fetch(endpoints(language).projects, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   const numberOfItems = showMore && data ? data.projects.length : 6;
 

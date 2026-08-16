@@ -1,0 +1,16 @@
+{
+    "education":[
+        {
+            "title": "Previsão Dez 2026",
+            "cardTitle": "MBA em Gestão Estratégica da TI",
+            "cardSubtitle":"IFSP — Instituto Federal de São Paulo",
+            "cardDetailedText": "Em Andamento"
+        },
+        {
+            "title": "Concluído em Dez 2024",
+            "cardTitle": "Graduação em Análise e Desenvolvimento de Sistemas",
+            "cardSubtitle":"PUC Minas",
+            "cardDetailedText": "Concluído"
+        }
+    ]
+}

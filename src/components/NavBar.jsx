@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
+import AppContext from '../AppContext';
+import LanguageToggler from './LanguageToggler';
 
 const styles = {
   logoStyle: {
@@ -37,17 +39,18 @@ const InternalNavLink = styled(NavLink)`
 
 const NavBar = () => {
   const theme = useContext(ThemeContext);
+  const { language } = useContext(AppContext);
   const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.navbar, {
+    fetch(endpoints(language).navbar, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   return (
     <Navbar
@@ -105,9 +108,12 @@ const NavBar = () => {
                 </InternalNavLink>
               )))}
           </Nav>
-          <ThemeToggler
-            onClick={() => setExpanded(false)}
-          />
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <ThemeToggler
+              onClick={() => setExpanded(false)}
+            />
+            <LanguageToggler />
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

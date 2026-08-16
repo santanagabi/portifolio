@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
 import endpoints from '../constants/endpoints';
+import AppContext from '../AppContext';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/home.css';
@@ -19,16 +20,17 @@ function initialsOf(name) {
 }
 
 function Home() {
+  const { language } = React.useContext(AppContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
+    fetch(endpoints(language).home, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   return data ? (
     <Fade triggerOnce className="home-fade-container">

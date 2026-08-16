@@ -1,13 +1,13 @@
-const endpoints = {
-  navbar: 'profile/navbar.json',
-  routes: 'profile/routes.json',
-  home: 'profile/home.json',
-  social: 'profile/social.json',
-  about: 'profile/about.json',
-  skills: 'profile/skills.json',
-  education: 'profile/education.json',
-  experiences: 'profile/experiences.json',
-  projects: 'profile/projects.json',
-};
+const endpoints = (lang = 'pt') => ({
+  navbar: `profile/${lang}/navbar.json`,
+  routes: `profile/${lang}/routes.json`,
+  home: `profile/${lang}/home.json`,
+  social: `profile/${lang}/social.json`,
+  about: `profile/${lang}/about.json`,
+  skills: `profile/${lang}/skills.json`,
+  education: `profile/${lang}/education.json`,
+  experiences: `profile/${lang}/experiences.json`,
+  projects: `profile/${lang}/projects.json`,
+});
 
 export default endpoints;

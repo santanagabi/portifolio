@@ -1,21 +1,23 @@
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { useState, useEffect, Suspense, useContext } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import endpoints from './constants/endpoints';
+import AppContext from './AppContext';
 
 function MainApp() {
   const [data, setData] = useState(null);
+  const { language } = useContext(AppContext);
 
   useEffect(() => {
-    fetch(endpoints.routes, {
+    fetch(endpoints(language).routes, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   return (
     <div className="MainApp">

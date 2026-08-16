@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -11,9 +11,10 @@ import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
   const darkMode = useDarkMode(true);
+  const [language, setLanguage] = useState('pt');
 
   return (
-    <AppContext.Provider value={{ darkMode }}>
+    <AppContext.Provider value={{ darkMode, language, setLanguage }}>
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">

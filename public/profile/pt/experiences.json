@@ -1,0 +1,29 @@
+{
+    "experiences": [
+        {
+            "title": "Desenvolvedora Frontend",
+            "subtitle": "Mercado Eletrônico",
+            "workType": "Tempo Integral",
+            "workDescription": [
+                "Construção e manutenção de funcionalidades críticas para uma plataforma de compras B2B utilizando Vue.js, Nuxt.js e TypeScript",
+                "Integração de múltiplas APIs REST e gerenciamento de estados complexos de aplicação com Vuex em módulos de larga escala",
+                "Alcancei um avanço significativo em performance — reduzi os tempos de carregamento de página de aproximadamente 5 minutos para menos de 1 segundo por meio de otimizações direcionadas",
+                "Contribuição em todo o ciclo de vida do desenvolvimento, desde o design técnico até a revisão de código e lançamento em produção",
+                "Colaboração próxima com equipes de UX e Produto para entregar experiências de alta qualidade aos usuários alinhadas com os objetivos do negócio"
+            ],
+            "dateText": "Fev 2023 – Presente"
+        },
+        {
+            "title": "Estagiária em Engenharia de Software",
+            "subtitle": "Mercado Eletrônico",
+            "workType": "Estágio",
+            "workDescription": [
+                "Desenvolvimento de componentes de UI reutilizáveis para o Design System interno utilizando Vue.js, contribuindo para uma biblioteca de componentes compartilhada adotada por diversas equipes de produto",
+                "Liderei a migração de componentes baseados no Bootstrap para o novo Design System, melhorando a manutenibilidade e a consistência visual de toda a plataforma",
+                "Implementação de testes automatizados e aumento da cobertura de testes, garantindo a confiabilidade dos componentes",
+                "Trabalhei lado a lado com engenheiros seniores de diferentes esquadrões, ganhando exposição à arquitetura de frontend em escala corporativa"
+            ],
+            "dateText": "Jun 2022 – Fev 2023"
+        }
+    ]
+}

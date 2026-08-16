@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "image": "images/projects/portfolio-poster.png",
+            "title": "FX Checker",
+            "bodyText": "- Uma aplicação moderna de conversão de moedas com taxas em tempo real, painel de mercado com gráficos históricos, ferramentas de comparação e favoritos persistentes. Construído com Angular 19 e a nova API de Signals.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/fx-checker"
+                }
+            ],
+            "tags": [
+                "Angular 19",
+                "TypeScript",
+                "RxJS",
+                "Signals",
+                "Chart.js",
+                "REST API"
+            ]
+        },
+        {
+            "image": "images/projects/caaring-poster.png",
+            "title": "Busca Pokédex",
+            "bodyText": "- Um mecanismo de busca de Pokémon com filtros avançados, paginação inteligente e ordenação — consumindo dados da PokéAPI. Inclui páginas de perfil detalhadas dos Pokémons com atributos, tipos e cadeias de evolução.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/pokedex-search"
+                }
+            ],
+            "tags": [
+                "Vue.js",
+                "Vuex",
+                "Nuxt.js",
+                "REST API"
+            ]
+        },
+        {
+            "image": "images/projects/quiet-hours-poster.jpg",
+            "title": "Gerenciador de Clínica Estética",
+            "bodyText": "- Sistema completo de gerenciamento de clínica, abrangendo prontuários de pacientes, controle de estoque, agendamento de consultas e relatórios administrativos — desenvolvido como projeto final da graduação.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/pmv-ads-2024-2-e5-proj-clinica-estetica"
+                }
+            ],
+            "tags": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Prisma"
+            ]
+        }
+    ]
+}

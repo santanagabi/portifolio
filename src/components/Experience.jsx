@@ -4,21 +4,23 @@ import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
+import AppContext from '../AppContext';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/timeline.css';
 
 function Experience(props) {
   const { header } = props;
+  const { language } = React.useContext(AppContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.experiences, {
+    fetch(endpoints(language).experiences, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res.experiences))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   return (
     <>

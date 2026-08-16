@@ -2,6 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
+import AppContext from '../AppContext';
 
 const styles = {
   iconStyle: {
@@ -13,16 +14,17 @@ const styles = {
 
 function Social() {
   const theme = useContext(ThemeContext);
+  const { language } = useContext(AppContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.social, {
+    fetch(endpoints(language).social, {
       method: 'GET',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
-  }, []);
+  }, [language]);
 
   return (
     <div className="social">

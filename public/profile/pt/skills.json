@@ -1,0 +1,60 @@
+{
+    "intro": "Estas são algumas das principais linguagens, tecnologias, ferramentas e plataformas com as quais já trabalhei:",
+    "skills": [
+        {
+            "title": "Frontend",
+            "items" : [
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React / Vue"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS / Tailwind"
+                }
+            ]
+        },
+        {
+            "title": "Backend & Banco de Dados",
+            "items" : [
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Node.js"
+                },
+                {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP / .NET"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
+                }
+            ]
+        },
+        {
+            "title" : "Ferramentas & DevOps",
+            "items": [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+        }
+    ]
+}
