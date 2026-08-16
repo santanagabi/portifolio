@@ -27,7 +27,7 @@ function Experience(props) {
       <Header title={header} />
       {data ? (
         <div className="section-content-container">
-          <Fade triggerOnce>
+          <Fade triggerOnce key={language}>
             <div className="tl tl--experience">
               {data.map((item) => (
                 <div className="tl-item" key={item.title + item.dateText}>

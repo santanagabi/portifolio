@@ -27,7 +27,7 @@ function About(props) {
       <Header title={header} />
       <div className="section-content-container">
         {data ? (
-          <Fade triggerOnce>
+          <Fade triggerOnce key={language}>
             <div className="bento">
               <div className="tile about-bio-tile span-4 rspan-2">
                 <ReactMarkdown>{data.about}</ReactMarkdown>

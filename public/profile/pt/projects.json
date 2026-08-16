@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "image": "images/projects/financeiro-app-poster.png",
+            "image": "images/projects/financeiro.mp4",
             "title": "Financeiro App",
             "bodyText": "- Uma aplicação de página única (SPA) moderna para gestão financeira construída com Angular 18. Conta com um dashboard interativo usando Chart.js, registro de movimentações e persistência de dados localmente usando LocalStorage e Signals.",
             "links": [

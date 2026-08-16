@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "image": "images/projects/financeiro-app-poster.png",
+            "image": "images/projects/financeiro.mp4",
             "title": "Financeiro App",
             "bodyText": "- A modern single-page application for financial management built with Angular 18. Features a dashboard with Chart.js, transaction registration, and client-side data persistence using LocalStorage and Signals.",
             "links": [

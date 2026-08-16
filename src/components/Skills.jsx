@@ -27,7 +27,7 @@ function Skills(props) {
       <Header title={header} />
       {data ? (
         <div className="section-content-container">
-          <Fade triggerOnce>
+          <Fade triggerOnce key={language}>
             <div className="bento">
               {data.intro && (
                 <div className="tile skills-intro-tile span-6">

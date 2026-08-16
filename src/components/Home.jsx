@@ -33,7 +33,7 @@ function Home() {
   }, [language]);
 
   return data ? (
-    <Fade triggerOnce className="home-fade-container">
+    <Fade triggerOnce className="home-fade-container" key={language}>
       <section className="hero">
         <div className="bento">
           <div className="tile hero-intro span-4 rspan-2">

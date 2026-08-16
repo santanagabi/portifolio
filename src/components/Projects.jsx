@@ -30,7 +30,7 @@ const Projects = (props) => {
       <Header title={header} />
       {data ? (
         <div className="section-content-container">
-          <Fade triggerOnce>
+          <Fade triggerOnce key={language}>
             <div className="bento">
               {data.projects?.slice(0, numberOfItems).map((project, index) => (
                 <ProjectCard

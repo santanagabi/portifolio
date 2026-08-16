@@ -26,7 +26,7 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <div className="section-content-container">
-          <Fade triggerOnce>
+          <Fade triggerOnce key={language}>
             <div className="tl tl--education">
               {data.education?.map((item) => (
                 <div className="tl-item" key={item.cardTitle + item.title}>
