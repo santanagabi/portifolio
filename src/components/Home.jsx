@@ -42,7 +42,7 @@ function Home() {
             )}
             <h1 className="hero-name">{data?.name}</h1>
             <div className="hero-roles">
-              <span>I&apos;m&nbsp;</span>
+              <span>{language === 'pt' ? 'Sou ' : "I'm "}&nbsp;</span>
               <Typewriter
                 options={{
                   loop: true,
@@ -54,10 +54,10 @@ function Home() {
             {data?.tagline && <p className="hero-tagline">{data.tagline}</p>}
             <div className="hero-cta">
               <Link className="btn-pill btn-accent" to="/projects">
-                View my work
+                {language === 'pt' ? 'Ver projetos' : 'View my work'}
               </Link>
               <Link className="btn-pill btn-ghost" to="/about">
-                About me
+                {language === 'pt' ? 'Sobre mim' : 'About me'}
               </Link>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Home() {
           </div>
 
           <div className="tile hero-social span-2">
-            <span className="tile-label">Find me</span>
+            <span className="tile-label">{language === 'pt' ? 'Encontre-me' : 'Find me'}</span>
             <Social />
           </div>
         </div>

@@ -1,15 +1,15 @@
 {
     "experiences": [
         {
-            "title": "Frontend Developer",
+            "title": "Software Developer",
             "subtitle": "Mercado Eletrônico",
             "workType": "Full-time",
             "workDescription": [
-                "Built and maintained critical features for a B2B procurement platform using Vue.js, Nuxt.js and TypeScript",
-                "Integrated multiple REST APIs and managed complex application state with Vuex across large-scale modules",
-                "Achieved a major performance breakthrough — reduced page load times from approximately 5 minutes to under 1 second through targeted optimization",
-                "Contributed across the full development lifecycle, from technical design to code review and production release",
-                "Collaborated closely with UX and Product teams to deliver high-quality user experiences aligned with business goals"
+                "Built and maintained critical features for a B2B procurement platform using Vue.js, Nuxt.js and TypeScript.",
+                "Expanded scope to end-to-end development, contributing to both frontend and backend deliveries using C#, .NET, SQL, MongoDB, gRPC, and Kafka.",
+                "Applied AI-assisted development and Specification-Driven Development (SDD) practices leveraging Cursor and LLMs to improve delivery efficiency.",
+                "Optimized the performance of key modules, reducing load times from 5 minutes to near-instant (under 1s) through dynamic rendering.",
+                "Managed global state using Vuex, optimizing API calls to ensure consistent synchronization between modules in complex workflows."
             ],
             "dateText": "Feb 2023 – Present"
         },
@@ -18,10 +18,10 @@
             "subtitle": "Mercado Eletrônico",
             "workType": "Internship",
             "workDescription": [
-                "Developed reusable UI components for the internal Design System using Vue.js, contributing to a shared component library adopted across multiple product teams",
-                "Led the migration of Bootstrap-based components to the new Design System, improving maintainability and visual consistency across the platform",
-                "Implemented automated tests and increased test coverage, ensuring component reliability across the codebase",
-                "Worked alongside senior engineers from different squads, gaining exposure to enterprise-scale frontend architecture"
+                "Developed reusable UI components for the internal Design System using Vue.js, contributing to a shared component library adopted across multiple product teams.",
+                "Led the migration of Bootstrap-based components to the new Design System, improving maintainability and visual consistency.",
+                "Implemented automated tests and increased test coverage from 45% to 80%, reducing QA cycles.",
+                "Worked alongside senior engineers from different squads, gaining exposure to enterprise-scale architecture."
             ],
             "dateText": "Jun 2022 – Feb 2023"
         }

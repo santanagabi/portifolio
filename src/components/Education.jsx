@@ -42,7 +42,17 @@ function Education(props) {
                       <span className="accent">{item.cardSubtitle}</span>
                     </div>
                     {item.cardDetailedText && (
-                      <div className="tl-detail">{item.cardDetailedText}</div>
+                      <div className="tl-detail">
+                        {Array.isArray(item.cardDetailedText) ? (
+                          <ul style={{ paddingLeft: '20px', margin: 0 }}>
+                            {item.cardDetailedText.map((text, i) => (
+                              <li key={i}>{text}</li>
+                            ))}
+                          </ul>
+                        ) : (
+                          item.cardDetailedText
+                        )}
+                      </div>
                     )}
                   </div>
                 </div>

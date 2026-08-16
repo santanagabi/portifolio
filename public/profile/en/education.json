@@ -1,16 +1,35 @@
 {
     "education":[
         {
-            "title": "Expected Dec 2026",
+            "title": "Dec 2026",
             "cardTitle": "MBA in Strategic IT Management",
             "cardSubtitle":"IFSP — Instituto Federal de São Paulo",
-            "cardDetailedText": "In Progress"
+            "cardDetailedText": "In Progress",
+            "icon": {
+                "src": "images/education/ifsp.png",
+                "alt": "IFSP Logo"
+            }
         },
         {
-            "title": "Completed Dec 2024",
-            "cardTitle": "B.Sc. in Information Systems Analysis & Development",
+            "title": "Dec 2024",
+            "cardTitle": "B.S. in Systems Analysis & Development",
             "cardSubtitle":"PUC Minas",
-            "cardDetailedText": "Completed"
+            "cardDetailedText": "Completed",
+            "icon": {
+                "src": "images/education/puc.png",
+                "alt": "PUC Minas Logo"
+            }
+        },
+        {
+            "title": "Certifications",
+            "cardTitle": "Licenses & Certifications",
+            "cardSubtitle": "Continuous Learning",
+            "cardDetailedText": [
+                "EF SET English Certificate — B2 Upper Intermediate (Feb 2026)",
+                "Generative AI Track — The Developer's Conference (Sep 2025)",
+                "AWS Certified Cloud Practitioner — Amazon Web Services (Feb 2025)",
+                "Web Full Stack .NET Specialization — Digital House (Sep 2022)"
+            ]
         }
     ]
 }

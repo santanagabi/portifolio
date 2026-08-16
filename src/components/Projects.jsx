@@ -49,7 +49,7 @@ const Projects = (props) => {
                 className="btn-pill btn-ghost"
                 onClick={() => setShowMore(true)}
               >
-                Show more
+                {language === 'pt' ? 'Mostrar mais' : 'Show more'}
               </button>
             </div>
           )}

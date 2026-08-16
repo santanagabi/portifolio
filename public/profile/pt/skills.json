@@ -1,24 +1,28 @@
 {
-    "intro": "Estas são algumas das principais linguagens, tecnologias, ferramentas e plataformas com as quais já trabalhei:",
+    "intro": "Algumas das principais linguagens, tecnologias, ferramentas e plataformas com as quais trabalho:",
     "skills": [
         {
             "title": "Frontend",
             "items" : [
                 {
                     "icon": "images/skills/react.png",
-                    "title": "React / Vue"
+                    "title": "React e Next.js"
+                },
+                {
+                    "icon": "images/skills/vuejs.png",
+                    "title": "Vue.js e Nuxt.js"
+                },
+                {
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+                    "title": "Angular"
                 },
                 {
                     "icon": "images/skills/typescript.png",
-                    "title": "TypeScript"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
+                    "title": "TypeScript e JS"
                 },
                 {
                     "icon": "images/skills/css.png",
-                    "title": "CSS / Tailwind"
+                    "title": "Tailwind e Bibliotecas UI"
                 }
             ]
         },
@@ -30,12 +34,12 @@
                     "title": "Node.js"
                 },
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP / .NET"
+                    "icon": "images/skills/csharp.png",
+                    "title": "C# e .NET"
                 },
                 {
                     "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "title": "SQL"
                 },
                 {
                     "icon": "images/skills/mongo-db.png",
@@ -44,11 +48,19 @@
             ]
         },
         {
-            "title" : "Ferramentas & DevOps",
+            "title" : "IA & DevOps",
             "items": [
                 {
+                    "icon": "images/skills/ai.png",
+                    "title": "LLMs e IA Generativa"
+                },
+                {
+                    "icon": "images/skills/cursor.png",
+                    "title": "Cursor e Ferramentas IA"
+                },
+                {
                     "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "title": "Git e CI/CD"
                 },
                 {
                     "icon": "images/skills/docker.png",

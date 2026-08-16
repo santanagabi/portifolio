@@ -1,16 +1,35 @@
 {
     "education":[
         {
-            "title": "Previsão Dez 2026",
-            "cardTitle": "MBA em Gestão Estratégica da TI",
+            "title": "Dez 2026",
+            "cardTitle": "MBA em Gestão Estratégica de TI",
             "cardSubtitle":"IFSP — Instituto Federal de São Paulo",
-            "cardDetailedText": "Em Andamento"
+            "cardDetailedText": "Em Andamento",
+            "icon": {
+                "src": "images/education/ifsp.png",
+                "alt": "IFSP Logo"
+            }
         },
         {
-            "title": "Concluído em Dez 2024",
-            "cardTitle": "Graduação em Análise e Desenvolvimento de Sistemas",
+            "title": "Dez 2024",
+            "cardTitle": "Bacharelado em Análise e Desenvolvimento de Sistemas",
             "cardSubtitle":"PUC Minas",
-            "cardDetailedText": "Concluído"
+            "cardDetailedText": "Concluído",
+            "icon": {
+                "src": "images/education/puc.png",
+                "alt": "PUC Minas Logo"
+            }
+        },
+        {
+            "title": "Certificações",
+            "cardTitle": "Licenças e Certificados",
+            "cardSubtitle": "Aprendizado Contínuo",
+            "cardDetailedText": [
+                "EF SET English Certificate — B2 Upper Intermediate (Fev 2026)",
+                "Trilha Generative AI — The Developer's Conference (Set 2025)",
+                "AWS Certified Cloud Practitioner — Amazon Web Services (Fev 2025)",
+                "Especialização Web Full Stack .NET — Digital House (Set 2022)"
+            ]
         }
     ]
 }
