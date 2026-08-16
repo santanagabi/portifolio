@@ -1,7 +1,26 @@
 {
     "projects": [
         {
-            "image": "images/projects/portfolio-poster.png",
+            "image": "images/projects/financeiro-app-poster.png",
+            "title": "Financeiro App",
+            "bodyText": "- A modern single-page application for financial management built with Angular 18. Features a dashboard with Chart.js, transaction registration, and client-side data persistence using LocalStorage and Signals.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/santanagabi/financeiro-app"
+                }
+            ],
+            "tags": [
+                "Angular 18",
+                "TypeScript",
+                "Signals",
+                "Chart.js",
+                "Reactive Forms",
+                "LocalStorage"
+            ]
+        },
+        {
+            "image": "images/projects/fx-checker.mp4",
             "title": "FX Checker",
             "bodyText": "- Modern currency exchange application featuring real-time conversion, market dashboard with historical charts, currency comparison tools, and persistent favorites. Built with Angular 19 and the latest Signals API.",
             "links": [
@@ -20,7 +39,7 @@
             ]
         },
         {
-            "image": "images/projects/caaring-poster.png",
+            "image": "images/projects/pokedex.png",
             "title": "Pokédex Search",
             "bodyText": "- Pokémon search engine with advanced filters, smart pagination, and sorting — pulling data from the PokéAPI. Includes detailed Pokémon profile pages with stats, types, and evolution chains.",
             "links": [

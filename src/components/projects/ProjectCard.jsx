@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 const ProjectCard = ({ project, featured = false }) => {
   const parseBodyText = (text) => <ReactMarkdown>{text}</ReactMarkdown>;
+  const isVideo = (url) => url && (url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.ogg'));
 
   return (
     <article
@@ -13,7 +14,11 @@ const ProjectCard = ({ project, featured = false }) => {
     >
       {project?.image && (
         <div className="project-card__media">
-          <img src={project.image} alt={project.title} />
+          {isVideo(project.image) ? (
+            <video src={project.image} autoPlay loop muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          ) : (
+            <img src={project.image} alt={project.title} />
+          )}
         </div>
       )}
 
