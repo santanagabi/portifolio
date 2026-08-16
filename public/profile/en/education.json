@@ -29,7 +29,11 @@
                 "Generative AI Track — The Developer's Conference (Sep 2025)",
                 "AWS Certified Cloud Practitioner — Amazon Web Services (Feb 2025)",
                 "Web Full Stack .NET Specialization — Digital House (Sep 2022)"
-            ]
+            ],
+            "icon": {
+                "src": "images/education/IA.jpeg",
+                "alt": "Certifications"
+            }
         }
     ]
 }

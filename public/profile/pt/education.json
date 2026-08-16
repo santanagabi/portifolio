@@ -29,7 +29,11 @@
                 "Trilha Generative AI — The Developer's Conference (Set 2025)",
                 "AWS Certified Cloud Practitioner — Amazon Web Services (Fev 2025)",
                 "Especialização Web Full Stack .NET — Digital House (Set 2022)"
-            ]
+            ],
+            "icon": {
+                "src": "images/education/IA.jpeg",
+                "alt": "Certificações"
+            }
         }
     ]
 }

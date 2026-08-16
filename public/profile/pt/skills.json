@@ -9,16 +9,16 @@
                     "title": "React e Next.js"
                 },
                 {
-                    "icon": "images/skills/vuejs.png",
+                    "icon": "images/skills/Vue.png",
                     "title": "Vue.js e Nuxt.js"
                 },
                 {
-                    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+                    "icon": "images/skills/angular.png",
                     "title": "Angular"
                 },
                 {
                     "icon": "images/skills/typescript.png",
-                    "title": "TypeScript e JS"
+                    "title": "TypeScript e JavaScript"
                 },
                 {
                     "icon": "images/skills/css.png",
@@ -34,7 +34,7 @@
                     "title": "Node.js"
                 },
                 {
-                    "icon": "images/skills/csharp.png",
+                    "icon": "images/skills/.net.png",
                     "title": "C# e .NET"
                 },
                 {
@@ -51,12 +51,8 @@
             "title" : "IA & DevOps",
             "items": [
                 {
-                    "icon": "images/skills/ai.png",
-                    "title": "LLMs e IA Generativa"
-                },
-                {
-                    "icon": "images/skills/cursor.png",
-                    "title": "Cursor e Ferramentas IA"
+                    "icon": "images/skills/Claude.jpeg",
+                    "title": "Cursor e Claude"
                 },
                 {
                     "icon": "images/skills/git.png",
