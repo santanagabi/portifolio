@@ -24,6 +24,17 @@
                 "Worked alongside senior engineers from different squads, gaining exposure to enterprise-scale architecture."
             ],
             "dateText": "Jun 2022 – Feb 2023"
+        },
+        {
+            "title": "Web Developer",
+            "subtitle": "Local E-commerce & Beauty Website — PHP & React",
+            "workType": "Volunteer",
+            "workDescription": [
+                "Refactored backend APIs with PHP and SQL, improving response time by 40% and enabling greater scalability.",
+                "Developed mobile-first web applications with React, Next.js and TypeScript, ensuring 100% responsiveness across different screen sizes.",
+                "Implemented loading states, error handling and pagination, ensuring a consistent user experience."
+            ],
+            "dateText": ""
         }
     ]
 }

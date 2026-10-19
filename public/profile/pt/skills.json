@@ -38,12 +38,20 @@
                     "title": "C# e .NET"
                 },
                 {
+                    "icon": "images/skills/php.png",
+                    "title": "PHP"
+                },
+                {
                     "icon": "images/skills/mysql.png",
                     "title": "SQL"
                 },
                 {
                     "icon": "images/skills/mongo-db.png",
                     "title": "MongoDB"
+                },
+                {
+                    "icon": "images/skills/firebase.png",
+                    "title": "Kafka & gRPC"
                 }
             ]
         },
@@ -52,15 +60,23 @@
             "items": [
                 {
                     "icon": "images/skills/Claude.jpeg",
-                    "title": "Cursor e Claude"
+                    "title": "Cursor & Claude"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python & Automação com IA"
                 },
                 {
                     "icon": "images/skills/git.png",
-                    "title": "Git e CI/CD"
+                    "title": "Git & CI/CD"
                 },
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/newrelic.png",
+                    "title": "Observabilidade & Monitoramento"
                 }
             ]
         }

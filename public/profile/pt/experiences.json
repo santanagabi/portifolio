@@ -24,6 +24,17 @@
                 "Trabalhei ao lado de engenheiros seniores de diferentes squads, ganhando exposição à arquitetura de escala empresarial."
             ],
             "dateText": "Jun 2022 – Fev 2023"
+        },
+        {
+            "title": "Desenvolvedora Web",
+            "subtitle": "E-commerce Local & Site de Beleza — PHP & React",
+            "workType": "Voluntário",
+            "workDescription": [
+                "Refatoração de APIs backend com PHP e SQL, melhorando o tempo de resposta em 40% e viabilizando maior escalabilidade.",
+                "Desenvolvimento de aplicações web mobile-first com React, Next.js e TypeScript, garantindo 100% de responsividade em diferentes tamanhos de tela.",
+                "Implementação de estados de carregamento, tratamento de erros e paginação, garantindo experiência de uso consistente."
+            ],
+            "dateText": ""
         }
     ]
 }
